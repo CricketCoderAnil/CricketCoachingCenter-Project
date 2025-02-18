@@ -1,0 +1,120 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(113, 163, 193);
+    color: #333;
+}
+
+
+header {
+    background-color: rgb(44, 75, 145);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    background-color: rgb(142, 120, 198);
+    border-radius:10px ;
+}
+
+nav a:hover {
+    color: #4CAF50;
+    background-color: rgb(190, 149, 190);
+}
+
+
+.ehper {
+    background-color: rgb(109, 191, 184);
+    border: 1px solid ;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px black;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+.ehper img {
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    margin-left: 150px;
+     box-shadow: 0 4px 10px black;
+     background-color: rgb(72, 246, 199);
+    
+}
+
+.ehper p {
+    margin-left: 150px;
+    font-family:serif;
+    font-variant:small-caps;
+    font-stretch:expanded;
+    font-size: 20px;
+    color: rgb(69, 23, 69);
+    padding: 10px 20px 10px;
+    
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+        background-color: gray;
+        padding: 10px 20px;
+        
+    }
+
+    .ehper {
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+h2{
+text-align: center;
+font-family: serif;
+font-style: normal;
+font-variant: inherit;
+text-decoration: underline;
+color: rgb(36, 112, 198);
+}
+ footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+background: black;
+color: white;
+padding: 10px 0;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+}
+footer marquee{
+display: inline-block;
+}

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(77, 112, 132);
+            margin: 0;
+            padding: 0;
+        }
+        .form-container {
+            width: 500px;
+            margin: 50px auto;
+            background:rgb(113, 163, 193);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: rgb(68, 55, 163);
+        }
+        label {
+            display: block;
+        color:rgb(15, 22, 78);
+            font-weight: bold;
+        }
+        input, select, textarea, button {
+            width: 95%;
+            padding: 12px;
+            margin: 5px 0 15px;
+            border: 1px solid rgb(15, 22, 78);
+            border-radius: 5px;
+            background-color: rgb(165, 231, 219);
+        }
+         input, select, textarea, button:hover{
+         background-color: white;
+         }
+        button {
+            background-color: rgb(68, 55, 163);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: rgb(190, 149, 190);
+        }
+        a{
+        text-decoration:none;
+        padding: 10px 20px;
+        background-color: rgb(34, 149, 128);
+        border-radius:10px;
+        margin-left: 200px;
+        color: black;
+        }
+        header{
+width: 100%;
+height: 70px;
+border: 2px solid black;
+box-shadow: 0px 0px 10px black;
+display: flex;
+justify-content: center;
+padding: 5px;
+background-color:rgb(109, 191, 184);
+}
+         header h1{
+        text-align:center;
+        
+        color:linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        text-transform: uppercase;
+        text-shadow: silver;
+        } 
+        nav {
+            display: flex;
+            background: #34495E;
+            padding: 10px;
+            right:0px;  
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-left: 100px;
+            background: rgb(26, 23, 80);
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #1ABC9C;
+            border-radius: 5px;
+        }
+         footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+background: black;
+color: white;
+padding: 10px 0;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+}
+footer marquee{
+display: inline-block;
+}

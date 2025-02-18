@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #337ab3;
+            margin: 0;
+            padding: 0;
+             
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+        h1{
+         text-transform: uppercase;
+        }
+header{
+width: 100%;
+height: 70px;
+border: 2px solid black;
+box-shadow: 0px 0px 10px black;
+display: flex;
+justify-content: center;
+padding: 5px;
+}
+header a{
+color: white;
+width:30px;
+height:30px;
+text-decoration: none;
+padding: 10px 40px;
+font-size: 18px;
+background-color: purple;
+border-radius: 5px;
+margin: 10px;
+justify-content: center;
+}
+ a:hover{
+background-color: navy;
+}
+
+        h2{
+        text-align:center;
+        color:linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+       
+        }
+       .container{
+       width: 320px;
+       height: 1050px;
+       border: 2px solid black;
+       margin: auto;
+       padding:20px 20px;
+       margin-top: 30px;
+       border-radius: 20px;
+       box-shadow: 0px 0px 10px black;
+       background-color: rgb(109, 191, 184);
+       }
+       .lb{
+       padding: 0px 110px;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size:16px; 
+       
+       }
+       .inp{
+        margin: 0px 40px;
+        border: 2px solid black;
+        padding: 5px;
+        padding-left: 80px;
+        border-radius: 20px;
+       }
+       .btn{
+       width: 80px;
+       height: 30px;
+       margin-left: 35%;
+       border-radius: 10px;
+       }
+       
+.lnk{
+width: 80px ;
+height: 30px;
+border: 2px solid black;
+background-color: green;
+color: white;
+}
+.ftr{
+width: 100px;
+height: 80px;
+margin: auto;
+       }
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+background: black;
+color: white;
+padding: 10px 0;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+}
+footer marquee{
+display: inline-block;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    background-color: rgb(137, 131, 229);
+    border-radius:10px ;
+}
+
+nav a:hover {
+    color: #4CAF50;
+    background-color: rgb(190, 149, 190);
+}
+
+       

@@ -1,0 +1,81 @@
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            background-color:rgb(149, 180, 175);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        header {
+            background:rgb(30, 174, 149);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            text-transform:uppercase;;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495E;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin:10px;
+        }
+        nav a:hover {
+            background: #1ABC9C;
+            border-radius: 10px;
+        }
+        .hero {
+            background: url('cricket-bg.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px black;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+           
+        }
+        .btn {
+            background: #1ABC9C;
+            padding: 10px 20px;
+            color: white;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #16A085;
+        }
+        footer {
+            background: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        #language{
+        padding: 5px 10px;
+        background-color: rgb(61, 117, 94);
+        border-radius: 10px ;
+        font-family: serif;
+        font-size: 20px;
+        
+        }

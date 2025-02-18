@@ -1,0 +1,97 @@
+@charset "UTF-8";
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+  header {
+            background: linear-gradient(90deg, #000000 0%, #0f9b0f 100%);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            
+           
+        }
+        aside{
+        width: 30px;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        background-color:  fuchsia;
+        
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495E;
+            padding: 10px;
+             
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-left: 50px;
+            background: rgb(26, 23, 180);
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #1ABC9C;
+            border-radius: 5px;
+        }
+      
+        .container {
+            max-width: 100hv;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 0px;
+            background-color: rgb(59, 123, 75);
+        }
+
+        .course-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            
+        }
+
+        .course-section img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-details {
+            flex-grow: 1;
+        }
+
+        .course-title {
+            font-size: 1.5em;
+            color: rgb(138, 57, 2);
+            margin-bottom: 10px;
+        }
+
+        .course-fee {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
