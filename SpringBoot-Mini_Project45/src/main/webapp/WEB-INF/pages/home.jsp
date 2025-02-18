@@ -102,12 +102,12 @@
        
     <select id="language" name="language" onchange="changeLanguage()">
         <option value=""><sp:message code="home.lan"/></option>
-        <option value="?locale=en_US"><sp:message code="lan.us"/></option>
-        <option value="?locale=hi_IN"><sp:message code="lan.hi"/></option>
-        <option value="?locale=te_IN"><sp:message code="lan.te"/></option>
-        <option value="?locale=ch_CH"><sp:message code="lan.ch"/></option>
-        <option value="?locale=fr_FR"><sp:message code="lan.fr"/></option>
-        <option value="?locale=ja_JP"><sp:message code="lan.jp"/></option>
+        <option value="?locale=en_US">English</option>
+        <option value="?locale=hi_IN">Hindi</option>
+        <option value="?locale=te_IN">Telugu</option>
+        <option value="?locale=ch_CH">Chainece</option>
+        <option value="?locale=fr_FR">French</option>
+        <option value="?locale=ja_JP">Japanees</option>
     </select>
         <a href="about-us"><sp:message code="home.ab"/></a>
         <a href="cource"><sp:message code="home.cb"/></a>

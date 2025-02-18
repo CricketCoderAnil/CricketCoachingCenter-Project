@@ -157,12 +157,12 @@ display: inline-block;
 </header>
 
     <div class="container">
-        <h2 class="h"><sp:message code="home.up"/></h2>
+        <h2 class="h">Update Details</h2>
         <br>
         
         <frm:form modelAttribute="stu"  method="post">
             
-             <label class="lb"><sp:message code="stu.reg.sid"/></label><br><br>
+             <label class="lb">Sid</label><br><br>
             <frm:input class="inp" path="sid" readonly="true" /><br>
             <label class="lb"><sp:message code="stu.reg.sname" /></label><br><br>
             <frm:input class="inp" path="sname" /><br>
@@ -178,7 +178,7 @@ display: inline-block;
             <frm:input class="inp" path="fee" /><br><br>
             <label class="lb"><sp:message code="stu.reg.imurl"/></label><br><br>
             <frm:input class="inp" path="imgUrl" />
-            <input class="btn" type="submit" value="<sp:message code='stu.up' />">&nbsp;&nbsp;&nbsp;
+            <input class="btn" type="submit" value="Update">&nbsp;&nbsp;&nbsp;
             
         
         </frm:form>
@@ -197,7 +197,7 @@ display: inline-block;
                 <li><sp:message code="upd.l2"/></li>
                 <li><sp:message code="upd.l3"/></li>
                 <li><sp:message code="upd.l4"/></li>
-                <li><sp:message code="upd.l5"/></li>
+                
             </ul>
         </div>
     </div>

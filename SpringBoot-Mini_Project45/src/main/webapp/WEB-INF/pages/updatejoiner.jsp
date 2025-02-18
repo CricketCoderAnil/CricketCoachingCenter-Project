@@ -44,7 +44,7 @@
             <frm:input class="inp" path="joiningDate" /><br><br>
             <label class="lb"><sp:message code="stu.reg.imurl"/></label><br><br>
             <frm:input class="inp" path="img_url" /><br><br>
-            <input class="btn" type="submit" value="<sp:message code='stu.up' />">&nbsp;&nbsp;&nbsp;
+            <input class="btn" type="submit" value="Update">&nbsp;&nbsp;&nbsp;
         </frm:form>
         </div>
   <br><br><br><br>

@@ -176,7 +176,7 @@ border: 5px solid #34495e;
    <br><br><a href="about-us"> About</a><br><br>
    
    <a href="addrs"> Address</a><br><br>
-   <a href="findalljoiners">Coach Report</a><br><br>
+   <a href="findalljoiners">Student Report</a><br><br>
    
    <a href="./">Home</a>
    </aside>
@@ -191,14 +191,14 @@ border: 5px solid #34495e;
    <table border="2" >
    <thead><h1>Coach Report</h1></thead>
    <tr>
-   <th><sp:message code="stu.reg.sid"/></th>
+   <th>Sid</th>
    <th><sp:message code="stu.reg.sname"/></th>
    <th><sp:message code="stu.reg.semail"/></th>
    <th><sp:message code="stu.reg.sphno"/></th>
-   <th><sp:message code="stu.reg.clg"/></th>
+   <th>Expirence</th>
    <th><sp:message code="stu.reg.location"/></th>
    <th><sp:message code="stu.reg.fee"/></th>
-   <th><sp:message code="stu.reg.jnd"/></th>
+   <th>Join Date</th>
    <th>Oparetions</th>
    </tr>
    <c:forEach var="sc" items="${result_Msg.getContent()}">
@@ -255,12 +255,12 @@ border: 5px solid #34495e;
 					<c:forEach var="sc" items="${result_Msg.getContent()}">
 						<div class="ehper">
 						<img src="${sc.imgUrl}" alt="NotFound">
-							   <p><sp:message code="stu.reg.sid"/>&nbsp;:&nbsp;&nbsp;${sc.sid}</p>
+							   <p>Sid&nbsp;:&nbsp;&nbsp;${sc.sid}</p>
 							   <p><sp:message code="stu.reg.sname"/>&nbsp;:&nbsp;&nbsp;${sc.sname}</p>
 							   <p><sp:message code="stu.reg.semail"/>&nbsp;:&nbsp;&nbsp;${sc.semail}</p>
 							   <p><sp:message code="stu.reg.sphno"/>&nbsp;:&nbsp;&nbsp;${sc.sphno}</p>
-							   <p><sp:message code="stu.reg.jnd"/>&nbsp;:&nbsp;&nbsp;${sc.joingDate}</p>
-							   <p><sp:message code="stu.reg.exp"/>&nbsp;:&nbsp;&nbsp;${sc.exp}</p>
+							   <p>Join Date&nbsp;:&nbsp;&nbsp;${sc.joingDate}</p>
+							   <p>Expirence&nbsp;:&nbsp;&nbsp;${sc.exp}</p>
 							   <p><sp:message code="stu.reg.location"/>&nbsp;:&nbsp;&nbsp;${sc.location}</p>
 							   <p><sp:message code="stu.reg.fee"/>&nbsp;:&nbsp;&nbsp;${sc.fee}</p>
 							   

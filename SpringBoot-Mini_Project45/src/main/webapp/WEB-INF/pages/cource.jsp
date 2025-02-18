@@ -177,7 +177,7 @@ footer {
     <div class="course-section">
         <figure>
         <img src="images/allrounder.png" alt="All-Rounder Course">
-        <figcaption><sp:message code="cr.fc3"/></figcaption>
+        <figcaption><sp:message code="cr.fc4"/></figcaption>
         </figure>
         <div class="course-details">
             <h2 class="course-title"><sp:message code="cr.h4"/></h2>

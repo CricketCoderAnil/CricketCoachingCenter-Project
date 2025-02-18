@@ -221,7 +221,7 @@ display: inline-block;
 </header>
 
     <div class="container">
-        <h2 class="h"><sp:message code="reg.title2"/></h2>
+        <h2 class="h">Coach Registration</h2>
         
         
         <frm:form modelAttribute="stu"  method="post">
