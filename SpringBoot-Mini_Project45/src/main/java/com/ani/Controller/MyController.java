@@ -29,7 +29,7 @@ public class MyController {
 
 	@GetMapping
 	public String homePage() {
-		return "home";
+		return "index";
 	}
 	@GetMapping("/report")
 	public String reportData(@ModelAttribute("stu") AdminEntity sten,Map<String,Object>map,@PageableDefault(page = 0,size = 3,sort = "sid",direction = Direction.ASC) Pageable pageable) {
